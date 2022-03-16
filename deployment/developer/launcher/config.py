@@ -16,13 +16,13 @@ import os
 
 MOSIP_DIR = os.path.join(os.environ['HOME'], 'mosip')
 MOSIP_VERSION = '1.1.5.5'  # Such a tag should exist on the repo
-MOSIP_REPO = 'https://github.com/mosip/commons'
+MOSIP_REPO = 'https://github.com/kumusoft/commons'
 
 SOFTHSM_INSTALL_DIR = MOSIP_DIR
 SOFTHSM_CONFIG_DIR = os.path.join(os.environ['HOME'], '.softhsm')
 SOFTHSM_PIN = '1234'
 
-CODE_DIR = os.path.join(MOSIP_DIR, 'mosip-platform')
+CODE_DIR = os.path.join(MOSIP_DIR, 'commons')
 
 PREREG_CODE_DIR = os.path.join(MOSIP_DIR, 'pre-registration/pre-registration')
 
@@ -179,10 +179,10 @@ KERNEL_SERVICES = [
     # ''),
 
     ('kernel', 'kernel-auditmanager-api', '-Dserver.port=5051', '',
-    '1.1.5.5-SNAPSHOT/kernel-auditmanager-api-1.1.5.5-SNAPSHOT.jar'),
+     '1.1.5.5-SNAPSHOT/kernel-auditmanager-api-1.1.5.5-SNAPSHOT.jar'),
 
     ('kernel', 'kernel-auth-adapter', '-Dserver.port=5052', '',
-    '1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-SNAPSHOT.jar'),
+     '1.1.5.5-SNAPSHOT/kernel-auth-adapter-1.1.5.5-SNAPSHOT.jar'),
 
     # ('kernel', 'kernel-authcodeflowproxy-api', '-Dserver.port=5053', '',
     # ''),
@@ -200,7 +200,7 @@ KERNEL_SERVICES = [
     # ''),
 
     ('kernel', 'kernel-core', '-Dserver.port=5058', '',
-    '1.1.5.5-SNAPSHOT/kernel-core-1.1.5.5-SNAPSHOT.jar'),
+     '1.1.5.5-SNAPSHOT/kernel-core-1.1.5.5-SNAPSHOT.jar'),
 
     # ('kernel', 'kernel-crypto-jce', '-Dserver.port=5059', '',
     # ''),
@@ -209,7 +209,7 @@ KERNEL_SERVICES = [
     # ''),
 
     ('kernel', 'kernel-dataaccess-hibernate', '-Dserver.port=5061', '',
-    '1.1.5.3/kernel-dataaccess-hibernate-1.1.5.3.jar'),
+     '1.1.5.3/kernel-dataaccess-hibernate-1.1.5.3.jar'),
 
     # ('kernel', 'kernel-datamapper-orika', '-Dserver.port=5062', '',
     # ''),
@@ -266,13 +266,13 @@ KERNEL_SERVICES = [
     # ''),
 
     ('kernel', 'kernel-logger-logback', '-Dserver.port=5080', '',
-    '1.1.5.3/kernel-logger-logback-1.1.5.3.jar'),
+     '1.1.5.3/kernel-logger-logback-1.1.5.3.jar'),
 
     # ('kernel', 'kernel-notification-service', '-Dserver.port=5081', '',
     # ''),
 
     ('kernel', 'kernel-pdfgenerator-itext', '-Dserver.port=5082', '',
-    '1.1.5.3/kernel-pdfgenerator-itext-1.1.5.3.jar'),
+     '1.1.5.3/kernel-pdfgenerator-itext-1.1.5.3.jar'),
 
     # ('kernel', 'kernel-pinvalidator', '-Dserver.port=5083', '',
     # ''),
@@ -293,13 +293,13 @@ KERNEL_SERVICES = [
     # ''),
 
     ('kernel', 'kernel-templatemanager-velocity', '-Dserver.port=5089', '',
-    '1.1.5.3/kernel-templatemanager-velocity-1.1.5.3.jar'),
+     '1.1.5.3/kernel-templatemanager-velocity-1.1.5.3.jar'),
 
     # ('kernel', 'kernel-transliteration-icu4j', '-Dserver.port=5090', '',
     # ''),
-    
+
     ('kernel', 'kernel-websubclient-api', '-Dserver.port=5091', '',
-    '1.1.5.5-SNAPSHOT/kernel-websubclient-api-1.1.5.5-SNAPSHOT.jar'),
+     '1.1.5.5-SNAPSHOT/kernel-websubclient-api-1.1.5.5-SNAPSHOT.jar'),
 
     # ('kernel', 'keys-generator', '-Dserver.port=5092', '',
     # ''),
