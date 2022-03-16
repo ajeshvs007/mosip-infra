@@ -14,7 +14,7 @@
 
 import os
 
-MOSIP_DIR = os.path.join(os.environ['HOME'], 'mosip')
+MOSIP_DIR = os.path.join(os.environ['HOME'], 'mosipdev')
 MOSIP_VERSION = '1.1.5.5'  # Such a tag should exist on the repo
 MOSIP_REPO = 'https://github.com/kumusoft/commons'
 
@@ -50,7 +50,7 @@ LOGS_DIR = os.path.join(
 JAVA_HEAP_SIZE = '256m'
 
 PACKET_LANDING_ZONE_PATH = os.path.join(MOSIP_DIR, 'dmz_packet_store')
-DB_SCRIPTS_PATH = os.path.join(MOSIP_DIR, 'mosip-platform/db_scripts/')
+DB_SCRIPTS_PATH = os.path.join(MOSIP_DIR, 'commons/db_scripts/')
 DB_PASSWORDS = {  # Same passwords should be present in .properties files
     'sysadminpwd': 'Mosipadm@dev123',
     'dbadminpwd': 'Mosipadm@dev123',
