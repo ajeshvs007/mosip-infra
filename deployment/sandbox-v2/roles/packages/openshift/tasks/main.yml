@@ -1,5 +1,5 @@
 - name: Install openshift [Python3]
   yum:
-    name: https://download-ib01.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/p/python3-openshift-0.11.2-1.el8.noarch.rpm
+    name: python-openshift
   become: yes
 
